@@ -5,7 +5,7 @@
 'use strict';
 document.addEventListener("DOMContentLoaded", function(){
   const Http = new XMLHttpRequest();
-  const url = "http://127.0.0.1:5000/getData";
+  const url = "http://127.0.0.1:5000/getdata";
   Http.open("GET", url);
   Http.send();
   
