@@ -12,4 +12,13 @@ document.addEventListener("DOMContentLoaded", function(){
   Http.onreadystatechange=(e)=>{
     console.log(Http.responseText)
 }
+chrome.notifications.create(
+  'name-for-notification',{   
+  type: 'basic', 
+  title: "This is a notification", 
+  message: "hello there!",
+  iconUrl: 'badges/blue-robot.png'
+  },function() {} 
+);
 });
+

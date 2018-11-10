@@ -1,5 +1,6 @@
 body {
     min-width: 300px;
+    width: 576px;
     padding: 10px;
     border-color: black;  
 }
@@ -11,8 +12,8 @@ img {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: 300;
+    margin-bottom: 5px;
 }
-
 p {
     margin-bottom: 0px;
 }
@@ -21,7 +22,7 @@ p {
     font-size: 37px;
     background-color: #007bff;
     margin-top: 20px;
-    border-radius: 27%;
+    border-radius: 21%;
     color: antiquewhite;
     padding-bottom: 15px;
 }
@@ -36,4 +37,22 @@ p {
 }
 #no7 {
     font-size: 50px;
+}
+.fa-cog{
+    color: grey;
+    font-size: 27px;
+    padding-right: 13px;
+    size: 85px !important;
+}
+.settings{
+    padding-top: 10px;
+    padding-top: 10px;
+}
+.bot{
+    margin-bottom: 5px;
+    margin-top: -38px;
+}
+.max{
+    margin-top: 10px;
+
 }
