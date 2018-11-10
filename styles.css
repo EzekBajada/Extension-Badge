@@ -1,0 +1,39 @@
+body {
+    min-width: 300px;
+    padding: 10px;
+    border-color: black;  
+}
+img {
+    width: 109px;
+    height: 166px;
+}
+#pl{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+p {
+    margin-bottom: 0px;
+}
+.number{
+    font-weight: 900;
+    font-size: 37px;
+    background-color: #007bff;
+    margin-top: 20px;
+    border-radius: 27%;
+    color: antiquewhite;
+    padding-bottom: 15px;
+}
+.seven{
+    background-color: aquamarine;
+    border-radius: 45%;
+    margin-top: 10px;
+}
+#hp{
+    font-size: 23px;
+    font-weight: 400;
+}
+#no7 {
+    font-size: 50px;
+}
