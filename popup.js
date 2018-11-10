@@ -12,4 +12,10 @@ document.addEventListener("DOMContentLoaded", function(){
   Http.onreadystatechange=(e)=>{
     console.log(Http.responseText)
 }
+
+var image = document.getElementById("robot");
+image.setAttribute("src","./badges/black-robot.png");
+var bar = document.getElementById("bar");
+bar.setAttribute("style","width: 75%");
+bar.setAttribute("aria-valuenow","75");
 });
