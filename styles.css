@@ -17,8 +17,8 @@ body {
     border-color: black;  
 }
 img {
-    width: 109px;
-    height: 166px;
+    width: 115px;
+    height: 171px;
 }
 #pl{ 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -78,7 +78,6 @@ p {
 }
 .settings{
     padding-top: 10px;
-    padding-top: 10px;
 }
 .bot{
     margin-bottom: 5px;
@@ -94,3 +93,10 @@ p {
     height: 13%;
     bottom: 70%;
 }   
+#btn{
+    margin-right: 12px;
+    margin-top: 10px;
+    width: 68px;
+    height: 26px;
+    padding: 0px;
+}

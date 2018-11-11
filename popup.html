@@ -4,30 +4,34 @@
 </head>
   <body>
     <div class="settings" align="right">
-    <a href="options.html" target="_blank">
-      <i class="fas fa-cog" id="cog" ></i>
-    </a>
+      <div>
+        <a href="options.html" target="_blank">
+          <i class="fas fa-cog" id="cog" ></i>
+        </a>
+      </div>
+      <div>
+        <button name="Change" id="btn">SPIN!</button>
+      </div>
     </div>
     <div align="middle" class="bot">
-      <img src="./badges/bulb-blue.png" alt="Robot" id="bulb" class="blink">
-      <img src="./badges/blue-robot.png" alt="Robot"id="robot" >
+      <img src="./badges/red-robot.png" alt="Robot"id="robot" >
     </div>
     <div class="title" align="middle">                             
       <p id="pl">Limit Bar Euros</p>                                                                                              
     </div>  
     <div class="progress" style="height: 40px">
-        <div id="bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+        <div id="bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
     <div class="row"> 
    <div class="col-sm-6">
      <div class="number">
-       <p align="middle" id="no7">7</p>
+       <p align="middle" id="no7">100</p>
        <p align="middle" id ="hp1">Money Available for limit</p>   
      </div>
    </div>
    <div class="col-sm-6">
     <div class="number">
-        <p align="middle" id="no7">69</p>
+        <p align="middle" id="no7">20</p>
         <p align="middle" id ="hp2">Days left</p>   
     </div>
    </div>
@@ -35,7 +39,7 @@
     <div class="row"> 
       <div class="col-sm-6">
       <div class="number">
-        <p align="middle" id="no7">21</p>
+        <p align="middle" id="no7" class="money">0</p>
         <p align="middle" id ="hp3">Money spent this month</p>   
       </div>
       </div>
